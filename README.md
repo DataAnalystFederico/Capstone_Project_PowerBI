@@ -1,45 +1,58 @@
-# Capstone_Project_PowerBI
-# (Data Analysis Laboratory)
+# Olist Store BI Analysis
 
 ## Descrizione del Progetto
+Questo progetto analizza i dati di Olist Store, una piattaforma di e-commerce brasiliana, per fornire un report di Business Intelligence (BI) dettagliato e interattivo. 
 
-Questo progetto comprende un laboratorio di analisi dei dati con i seguenti componenti e attività principali:
+Il dataset contiene informazioni sugli ordini dal 2016 al 2018 e consente di analizzare metriche fondamentali come il numero di ordini, i ricavi e le valutazioni dei clienti. L'obiettivo del progetto è sviluppare una dashboard interattiva in Power BI per supportare decisioni aziendali strategiche.
 
-- **File JPEG/JPG**: Include gli schemi concettuale e logico del database. Questi schemi rappresentano la struttura del database e le relazioni tra le diverse tabelle, fornendo una visione chiara e dettagliata dell'architettura dei dati.
-- **File SQL**: Contiene lo script per la creazione e popolamento del database relazionale utilizzando MySQL. Questo script definisce le tabelle e inserisce i dati necessari per l'analisi.
-- **File CSV**: Esporta i dati dal database in formato CSV, facilitando l'importazione e la manipolazione dei dati in altre applicazioni. Questo formato consente una facile integrazione con strumenti di analisi come Excel.
-- **File Excel**: Include l'analisi finale dei dati. I dati CSV sono stati importati in Excel e trasformati utilizzando Power Query. È stata poi creata una dashboard interattiva per la visualizzazione e l'analisi dei dati, fornendo una panoramica dettagliata dei risultati.
+### Obiettivi Principali
+1. **Andamento degli Ordini nel Tempo:**
+   - Analisi del conteggio degli ordini mese per mese, con confronto rispetto all'anno precedente.
+   - Filtraggio degli ordini in base al loro status (ad es. consegnati, cancellati, ecc.).
 
-## Attività Svolte
+2. **Andamento dei Ricavi nel Tempo:**
+   - Calcolo dei ricavi totali mese per mese (inclusi costi di spedizione) con variazione percentuale rispetto all'anno precedente.
+   - Filtraggio basato sullo status dell'ordine.
 
-1. **Creazione degli Schemi del Database**:  
-   Gli schemi concettuale e logico sono stati sviluppati per rappresentare graficamente la struttura del database, facilitando la comprensione dell'architettura e delle relazioni tra i dati.
+3. **Distribuzione del Rating:**
+   - Analisi delle valutazioni dei clienti (review score) per comprendere la qualità del servizio.
 
-2. **Creazione e Popolamento del Database**:  
-   Definizione e popolamento delle tabelle del database utilizzando lo script SQL.
+### Analisi Aggiuntive
+- Distribuzione geografica degli ordini.
+- Analisi per prodotto e categoria.
 
-3. **Esportazione dei Dati**:  
-   Conversione dei dati in formato CSV per un'ulteriore manipolazione e analisi.
-
-4. **Analisi dei Dati in Excel**:  
-   Importazione dei dati CSV in Excel, trasformazione dei dati con Power Query, e creazione di una dashboard interattiva per l'analisi.
-
-## Competenze Sviluppate
-
-Questo laboratorio ha permesso di sviluppare competenze nelle seguenti aree:
-- Gestione dei database relazionali e creazione di schemi concettuali e logici.
-- Manipolazione dei dati tramite query SQL.
-- Esportazione e trasformazione dei dati per l'analisi.
-- Creazione di visualizzazioni analitiche avanzate utilizzando Excel.
+### Caratteristiche Tecniche
+- **Riduzione e Ristrutturazione Dati:** Implementazione di uno schema a stella per ottimizzare l'analisi.
+- **Dimensione Calendario:** Creazione di una dimensione temporale per supportare analisi temporali.
+- **UX Migliorata:** Utilizzo di filtri, drill-through e un layout intuitivo per migliorare l'esperienza utente.
 
 ---
 
-### Struttura del Progetto
-- `/schemas`: Contiene i file JPEG/JPG degli schemi del database.
-- `/scripts`: Contiene il file SQL per la creazione e popolamento del database.
-- `/data`: Contiene i file CSV esportati dal database.
-- `/excel`: Contiene il file Excel con l'analisi e la dashboard finale.
+## Contenuto del Repository
+- **Dashboard PDF:** La dashboard finale in formato PDF per una rapida consultazione.
+- **File di Sviluppo Power BI:** Il file .pbix per esplorare e modificare la dashboard al link: https://drive.google.com/drive/folders/1_PCy1Pd8et0mV0F2cp6sNJh2BT6RPEMX?hl=it.
+- **Dataset:** [Scarica i file CSV utilizzati per l'analisi] https://drive.google.com/drive/folders/1_PCy1Pd8et0mV0F2cp6sNJh2BT6RPEMX?hl=it.
 
 ---
 
-> **Nota**: Per eseguire il progetto, è necessario avere MySQL, Excel e Power Query installati sul proprio sistema.
+## Dataset Utilizzati
+Le tabelle seguenti sono state integrate per costruire l'analisi:
+- **olist_orders_dataset:** Dati sugli ordini.
+- **olist_order_items_dataset:** Dati sugli articoli venduti.
+- **olist_products_dataset:** Dati sui prodotti.
+- **olist_order_reviews_dataset:** Dati sulle recensioni dei clienti.
+- **olist_customers_dataset:** Dati sui clienti.
+
+---
+
+## Requisiti
+Per visualizzare o modificare la dashboard, è necessario:
+- Microsoft Power BI Desktop
+- I file CSV forniti nel link del repository
+
+---
+
+## Come Iniziare
+1. Scarica i file CSV dai link forniti.
+2. Apri il file .pbix con Power BI Desktop.
+3. Esplora la dashboard interattiva o personalizzala per le tue esigenze.

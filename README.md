@@ -28,10 +28,13 @@ Il dataset contiene informazioni sugli ordini dal 2016 al 2018 e consente di ana
 
 ---
 
-## Contenuto del Repository
-- **Dashboard PDF:**[La dashboard finale in formato PDF](./Dashboard%20-%20Olist%28E-commerce%29.pdf) per una rapida consultazione.
-- **File di Sviluppo Power BI:** Il file .pbix per esplorare e modificare la dashboard al link: [Google Drive - Power BI File](https://drive.google.com/drive/folders/1_PCy1Pd8et0mV0F2cp6sNJh2BT6RPEMX?hl=it).
-- **Dataset:** [Scarica i file CSV utilizzati per l'analisi](https://drive.google.com/drive/folders/1_PCy1Pd8et0mV0F2cp6sNJh2BT6RPEMX?hl=it).
+## 📂 Contenuto del Repository
+
+- **📄 Dashboard PDF:** [Esplora la dashboard finale in formato PDF](./Dashboard%20-%20Olist%28E-commerce%29.pdf) per una rapida panoramica dei risultati.
+  
+- **🔧 File di Sviluppo Power BI:** [Accedi al file Power BI](https://drive.google.com/drive/folders/1_PCy1Pd8et0mV0F2cp6sNJh2BT6RPEMX?hl=it) per esplorare e visualizzare i dati in modo interattivo. Non è necessaria alcuna modifica, ma puoi personalizzare alcune visualizzazioni per rispondere alle tue esigenze specifiche.
+  
+- **📊 Dataset Completo:** [Scarica i file CSV utilizzati per l'analisi](https://drive.google.com/drive/folders/1_PCy1Pd8et0mV0F2cp6sNJh2BT6RPEMX?hl=it) per visualizzare i dati grezzi o utilizzare i dataset in altri progetti.
 
 ---
 
